@@ -1,3 +1,11 @@
 /**
  * _site-header.scss
 */
+
+body > header {
+  position: fixed;
+  width: 100%;
+  background: $gray-800;
+  color: $white;
+  font-size: .8rem;
+}

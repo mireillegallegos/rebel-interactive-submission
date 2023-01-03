@@ -1,0 +1,14 @@
+.hero {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	min-height: 75vh;
+	padding: $spacer*5 0;
+
+
+	@include media-breakpoint-up(md) {
+		min-height: 500px;
+		padding-top: $spacer*6;
+		padding-bottom: $spacer*6;
+	}
+}

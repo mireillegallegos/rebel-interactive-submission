@@ -19,6 +19,16 @@ body {
   flex-direction: column;
 }
 
+.container-fluid {
+  max-width: 1400px;
+
+  @include media-breakpoint-up(md){
+    &.container-md-75 {
+      width: 75%;
+    }
+  }
+}
+
 // set default img styles to prevent compression issues when using flex
 img {
   max-width: 100%;
