@@ -1,0 +1,27 @@
+/**
+ * _structure.scss
+ * Layout related styles and initialize top level elem such as html, body, header, footer
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+// set default img styles to prevent compression issues when using flex
+img {
+  max-width: 100%;
+  height: auto;
+}

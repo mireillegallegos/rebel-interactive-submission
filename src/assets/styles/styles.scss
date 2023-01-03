@@ -1,49 +1,18 @@
 /**
  * Import stylesheet partials
+ * All styles located in partials
 */
-@import "reset.scss";
-@import "branding";
 
-/**
- * ZeroPoint starter styling
-*/
-body {
-  color: var(--color-text);
-  background-color: var(--color-background);
-  font-family: var(--font-family-sans-serif);
-}
+//import libraries
+@import '../../../node_modules/bootstrap/scss/_functions';
+@import '_variables';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
 
-a {
-  color: var(--color-primary);
-}
+// global styles and components
+@import "_typography";
+@import "_structure";
+@import "_buttons";
 
-#main {
-  max-width: var(--container-width);
-  margin: var(--unit);
-}
-
-#navigation {
-  display: flex;
-  border-bottom: 1px solid var(--color-light);
-  margin: var(--unit);
-}
-
-hr {
-  border-width: 1px 0 0;
-  border-color: var(--color-light);
-}
-
-.navigation-item,
-.navigation-label {
-  padding: calc(var(--unit) / 2);
-}
-
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
+// specific elements/sections
+@import "_site-header";
+@import "_site-footer";
