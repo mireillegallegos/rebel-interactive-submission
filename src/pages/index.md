@@ -26,7 +26,7 @@ title: Our Great Website
 <section id="products" class="section">
   <div class="container-fluid">
     <h2>Our Products</h2>
-    <ul>
+    <ul class="alternating-list">
       <li>
         <header>
           <h3>Product 1</h3>
@@ -34,7 +34,7 @@ title: Our Great Website
         <article>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis eros tellus, egestas consectetur dolor elementum sit amet. Vivamus eget consequat est. Nullam bibendum efficitur purus at fermentum. Curabitur in rhoncus nisi. Fusce neque leo, facilisis et arcu a, convallis interdum purus.</p>
           <footer>
-            <a href="#" class="call-to-action">Lorem!</a>
+            <a href="#" class="call-to-action btn btn-outline-primary">Lorem!</a>
           </footer>
         </article>
       </li>
@@ -45,7 +45,7 @@ title: Our Great Website
         <article>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis eros tellus, egestas consectetur dolor elementum sit amet. Vivamus eget consequat est. Nullam bibendum efficitur purus at fermentum. Curabitur in rhoncus nisi. Fusce neque leo, facilisis et arcu a, convallis interdum purus.</p>
           <footer>
-            <a href="#" class="call-to-action">Lorem!</a>
+            <a href="#" class="call-to-action btn btn-outline-primary">Lorem!</a>
           </footer>
         </article>
       </li>
@@ -56,7 +56,7 @@ title: Our Great Website
         <article>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis eros tellus, egestas consectetur dolor elementum sit amet. Vivamus eget consequat est. Nullam bibendum efficitur purus at fermentum. Curabitur in rhoncus nisi. Fusce neque leo, facilisis et arcu a, convallis interdum purus.</p>
           <footer>
-            <a href="#" class="call-to-action">Lorem!</a>
+            <a href="#" class="call-to-action btn btn-outline-primary">Lorem!</a>
           </footer>
         </article>
       </li>
@@ -69,7 +69,7 @@ title: Our Great Website
     {% image "https://source.unsplash.com/1024x768/?beagle", "Random image of a beagle", "100%" %}
   </figure>
   <article class="bg-content container-fluid">
-    <p>
+    <p class="lead">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis eros tellus, egestas consectetur dolor elementum sit amet. Vivamus eget consequat est. Nullam bibendum efficitur purus at fermentum. Curabitur in rhoncus nisi. Fusce neque leo, facilisis et arcu a, convallis interdum purus.
     </p>
   </article>
