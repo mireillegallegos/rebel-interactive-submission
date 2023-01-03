@@ -19,9 +19,13 @@ body {
   flex-direction: column;
 }
 
-
 // set default img styles to prevent compression issues when using flex
 img {
   max-width: 100%;
   height: auto;
+}
+
+// sections
+section {
+  padding: $spacer*2 0;
 }
