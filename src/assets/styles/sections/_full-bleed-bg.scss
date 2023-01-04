@@ -3,9 +3,9 @@
 	flex-direction: column;
 	text-align: center;
 	justify-content: flex-end;
-	min-height: 80vh;
-	max-height: 1000px;
 	position: relative;
+	padding-top: 0;
+	padding-bottom: 0;
 
 	.bg-img {
 		width: 100%;
@@ -25,6 +25,10 @@
 	}
 
 	@include media-breakpoint-up(sm) {
+		min-height: 600px;
+		height: 80vh;
+		max-height: 1000px;
+
 		.bg-img {
 			position: absolute;
 			top: 0;
@@ -34,6 +38,7 @@
 
 		.bg-content {
 			background-color: rgba($green, .9);
+			margin-bottom: $spacer*4;
 		}
 	}
 }
