@@ -33,6 +33,11 @@ img {
 // sections
 section {
   padding: $spacer*2 0;
+
+  @include media-breakpoint-up(sm){
+    padding-top: $spacer * 4;
+    padding-bottom: $spacer * 4;
+  }
 }
 
 // adjust text for dark sections based on parent class

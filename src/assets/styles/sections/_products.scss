@@ -1,0 +1,46 @@
+#products {
+  h2 {
+    text-align: center;
+  }
+}
+
+
+ul.alternating-list {
+  margin-bottom: 0;
+  display:flex;
+  flex-direction: column;
+  margin-top: $spacer *2;
+  position: relative;
+
+  &:before {
+    content: '';
+    height: 100%;
+    width: 4px;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    background: linear-gradient($green-300, $green-700);
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: $spacer * 2;
+  }
+
+  @include media-breakpoint-up(md){
+  &:before {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    li {
+      padding: $spacer;
+      width: 45%;
+
+      &:nth-child(even){
+        align-self: flex-end;
+      }
+    }
+  }
+}
