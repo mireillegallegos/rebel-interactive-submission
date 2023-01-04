@@ -79,9 +79,9 @@ title: Our Great Website
 
 <section id="blog" class="section">
   <div class="container-fluid">
-    <h2>Our Latest Blog Posts</h2>
+    <h2 class="mb-6 text-center">Our Latest Blog Posts</h2>
     <div class="row">
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-lg-4">
         <div class="card">
           <header class="card-header">
             <h3>Post 1</h3>
@@ -94,7 +94,7 @@ title: Our Great Website
           </article>
         </div>
       </div><!--/.col-12-->
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-lg-4">
         <div class="card">
           <header class="card-header">
             <h3>Post 2</h3>
@@ -107,7 +107,7 @@ title: Our Great Website
           </article>
         </div>
       </div><!--/.col-12-->
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-lg-4">
         <div class="card">
           <header class="card-header">
             <h3>Post 3</h3>
@@ -126,7 +126,7 @@ title: Our Great Website
 
 <section id="clients" class="section bg-light">
   <div class="container-fluid">
-    <h2>Our <em>Fanciest</em> Clients</h2>
+    <h2 class="mb-4 text-center">Our <em>Fanciest</em> Clients</h2>
     <ul class="slider">
       <li class="ratio ratio-1x1">
         <figure class="logo">
