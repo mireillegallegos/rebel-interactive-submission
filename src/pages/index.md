@@ -124,9 +124,9 @@ title: Our Great Website
   </div>
 </section>
 
-<section id="clients" class="section bg-light">
+<section id="clients" class="section bg-light-gradient">
   <div class="container-fluid">
-    <h2 class="mb-4 text-center">Our <em>Fanciest</em> Clients</h2>
+    <h2 class="mb-4 text-center">Our <span class="fancy-font">Fanciest</span> Clients</h2>
     <ul class="slider">
       <li class="ratio ratio-1x1">
         <figure class="logo">

@@ -3,13 +3,54 @@
 */
 
 .slider {
+  margin-top: $spacer * 2;
+
   .tns-item {
-    padding: .5 * $spacer;
     figure {
       margin-bottom: 0;
       display: flex;
       align-items: center;
       justify-content: center;
+      text-align: center;
+    }
+  }
+}
+
+.tns-controls {
+  text-align: center;
+
+  button {
+    @extend .btn;
+    @extend .btn-sm;
+    @extend .btn-primary;
+    margin-left: $spacer / 2;
+    margin-right: $spacer / 2;
+  }
+}
+
+.tns-nav {
+  text-align: center;
+
+  button {
+    @extend .btn;
+    @extend .btn-link;
+    margin-left: $spacer / 2;
+    margin-right: $spacer / 2;
+    background: $gray-500;
+    display: inline-block;
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: none;
+    transition: background .2s ease-in-out;
+
+    &:hover {
+      background: $gray-600;
+    }
+
+    &.tns-nav-active {
+      background: $primary !important;
     }
   }
 }
