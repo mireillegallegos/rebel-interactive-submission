@@ -5,7 +5,23 @@
 body > header {
   position: fixed;
   width: 100%;
-  background: $gray-800;
+  background: rgba($secondary, .9);
   color: $white;
-  font-size: .8rem;
+  z-index: 10;
+}
+
+#navigation {
+  display: flex;
+
+  .navigation-item,
+  .navigation-label {
+    padding: .5 * $spacer;
+
+    a {
+      color: $white;
+      &:hover {
+        color: $gray-400;
+      }
+    }
+  }
 }
