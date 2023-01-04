@@ -122,7 +122,7 @@ title: Our Great Website
   </div>
 </section>
 
-<section id="clients" class="section">
+<section id="clients" class="section bg-light">
   <div class="container-fluid">
     <h2>Our <em>Fanciest</em> Clients</h2>
     <ul class="slider">
@@ -180,8 +180,8 @@ title: Our Great Website
   </div>
 </section>
 
-<section id="social" class="section">
-  <div class="container-fluid">
+<section id="social" class="section bg-secondary">
+  <div class="container-fluid text-white">
     <h2>Follow us on Social Media!</h2>
     <ul>
       <li><a href="#">Facebook</a></li>
@@ -192,8 +192,8 @@ title: Our Great Website
   </div>
 </section>
 
-<footer id="site-footer">
-  <p>Copyright 2099</p>
+<footer id="site-footer" class="bg-dark text-white">
+  <p class="mb-0">Copyright 2099</p>
 </footer>
 
 <!-- add tiny slider -->

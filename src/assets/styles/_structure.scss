@@ -19,14 +19,9 @@ body {
   flex-direction: column;
 }
 
+// max container width. Used inside <section> and other layout level elem
 .container-fluid {
   max-width: 1400px;
-
-  @include media-breakpoint-up(md){
-    &.container-md-75 {
-      width: 75%;
-    }
-  }
 }
 
 // set default img styles to prevent compression issues when using flex
