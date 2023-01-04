@@ -4,7 +4,6 @@
   }
 }
 
-
 ul.alternating-list {
   margin-bottom: 0;
   display:flex;
@@ -12,6 +11,7 @@ ul.alternating-list {
   margin-top: $spacer *2;
   position: relative;
 
+  // decorative line. Left of content on mobile
   &:before {
     content: '';
     height: 100%;
@@ -28,12 +28,14 @@ ul.alternating-list {
   }
 
   @include media-breakpoint-up(md){
+  // decorative line moves to center
   &:before {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
   }
 
+    // on larger screen, li takes up 45% of space and alternates
     li {
       padding: $spacer;
       width: 45%;

@@ -1,3 +1,10 @@
+/**
+ * _full-bleed-bg
+ * A section with a full width background image. 
+ * The image is set to position absolute so that the content can be placed over it.
+ * On mobile, the image and the content stack.
+*/
+
 .full-bleed-bg {
 	display: flex;
 	flex-direction: column;
