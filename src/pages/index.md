@@ -125,55 +125,55 @@ title: Our Great Website
 <section id="clients" class="section">
   <div class="container-fluid">
     <h2>Our <em>Fanciest</em> Clients</h2>
-    <ul>
-      <li>
+    <ul class="slider">
+      <li class="ratio ratio-1x1">
+        <figure class="logo">
+          {% image "https://source.unsplash.com/200x200/?logo", "Random logo", "100%" %}
+        </figure>
+      </li>
+      <li class="ratio ratio-1x1">
         <figure class="logo">
           {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
         </figure>
       </li>
-      <li>
+      <li class="ratio ratio-1x1">
         <figure class="logo">
           {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
         </figure>
       </li>
-      <li>
+      <li class="ratio ratio-1x1">
+        <figure class="logo">
+          {% image "https://source.unsplash.com/100x200/?logo", "Random logo", "100%" %}
+        </figure>
+      </li>
+      <li class="ratio ratio-1x1">
         <figure class="logo">
           {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
         </figure>
       </li>
-      <li>
+      <li class="ratio ratio-1x1">
         <figure class="logo">
           {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
         </figure>
       </li>
-      <li>
+      <li class="ratio ratio-1x1">
+        <figure class="logo">
+          {% image "https://source.unsplash.com/100x100/?logo", "Random logo", "100%" %}
+        </figure>
+      </li>
+      <li class="ratio ratio-1x1">
         <figure class="logo">
           {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
         </figure>
       </li>
-      <li>
+      <li class="ratio ratio-1x1">
         <figure class="logo">
           {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
         </figure>
       </li>
-      <li>
+      <li class="ratio ratio-1x1">
         <figure class="logo">
-          {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
-        </figure>
-      </li>
-      <li>
-        <figure class="logo">
-          {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
-        </figure>
-      </li>
-      <li>
-        <figure class="logo">
-          {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
-        </figure>
-      </li>
-      <li>
-        <figure class="logo">
-          {% image "https://source.unsplash.com/200x100/?logo", "Random logo", "100%" %}
+          {% image "https://source.unsplash.com/100x150/?logo", "Random logo", "100%" %}
         </figure>
       </li>
     </ul>
@@ -195,3 +195,7 @@ title: Our Great Website
 <footer id="site-footer">
   <p>Copyright 2099</p>
 </footer>
+
+<!-- add tiny slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->

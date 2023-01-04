@@ -1,0 +1,15 @@
+/**
+ * _sliders.scss
+*/
+
+.slider {
+  .tns-item {
+    padding: .5 * $spacer;
+    figure {
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
