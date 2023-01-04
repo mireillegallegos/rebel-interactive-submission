@@ -6,15 +6,17 @@
 
     <title>{{ title }}</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <link rel="stylesheet" href="{{ '/assets/fonts/fontawesome/css/fontawesome.min.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/assets/fonts/fontawesome/css/brands.min.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/assets/fonts/fontawesome/css/solid.min.css' | url }}" />
     <link rel="stylesheet" href="{{ '/assets/styles/styles.css' | url }}" />
     <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 
     {% metagen
         title=title or metadata.title
     %}
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 
   </head>
   <body>

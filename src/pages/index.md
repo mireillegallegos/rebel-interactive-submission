@@ -66,7 +66,9 @@ title: Our Great Website
 
 <section id="about" class="section full-bleed-bg">
   <figure class="bg-img">
-    {% image "https://source.unsplash.com/1024x768/?beagle", "Random image of a beagle", "100%" %}
+    <!-- {% image "https://source.unsplash.com/1024x768/?beagle", "Random image of a beagle", "100%" %} -->
+    <!-- use new URL for specific pic of beagle -->
+    {% image "https://images.unsplash.com/photo-1597351176993-6ae16285e79d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1200", "Beagle on nature hike", "100%" %}
   </figure>
   <article class="bg-content container-fluid">
     <p class="lead">
@@ -181,13 +183,14 @@ title: Our Great Website
 </section>
 
 <section id="social" class="section bg-secondary">
-  <div class="container-fluid text-white">
+  <div class="container-fluid">
     <h2>Follow us on Social Media!</h2>
     <ul>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Facegram</a></li>
-      <li><a href="#">Instabook</a></li>
+      <li><a href="#" class="facebook">Facebook</a></li>
+      <li><a href="#" class="instagram">Instagram</a></li>
+      <li><a href="#" class="facegram">Facegram</a></li>
+      <li><a href="#" class="instabook">Instabook</a></li>
+      <li class="featured"><a href="mailto:tchalla@wakanda.gov">Email Us!</a></li>
     </ul>
   </div>
 </section>

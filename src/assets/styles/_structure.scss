@@ -34,3 +34,20 @@ img {
 section {
   padding: $spacer*2 0;
 }
+
+// adjust text for dark sections based on parent class
+.bg-secondary {
+  h1, h2, h3, h4, h5, h6,
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol {
+    @extend .text-white;
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $gray-400;
+    }
+  }
+}
