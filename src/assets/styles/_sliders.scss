@@ -23,8 +23,8 @@
     @extend .btn;
     @extend .btn-sm;
     @extend .btn-primary;
-    margin-left: $spacer / 2;
-    margin-right: $spacer / 2;
+    margin-left: $spacer * .5;
+    margin-right: $spacer * .5;
   }
 }
 
@@ -34,8 +34,8 @@
   button {
     @extend .btn;
     @extend .btn-link;
-    margin-left: $spacer / 2;
-    margin-right: $spacer / 2;
+    margin-left: $spacer * .5;
+    margin-right: $spacer * .5;
     background: $gray-500;
     display: inline-block;
     padding: 0;
