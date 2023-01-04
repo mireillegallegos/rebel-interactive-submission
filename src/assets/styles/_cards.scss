@@ -8,6 +8,7 @@
     background: linear-gradient(45deg, $gray-100, $gray-200);
     filter: drop-shadow(5px 2px 5px $gray-300);
     margin-bottom: 2 * $spacer;
+    transition: all .2s ease-in-out;
 
     .card-header {
       background: none;
@@ -24,6 +25,24 @@
       background: none;
       padding: .5*$spacer 0 0 0;
       text-align: right;
+    }
+
+    &:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(-45deg, $green-400, $green-700);
+      @extend .text-white;
+
+      h3 {
+        color: $white;
+      }
+
+      a {
+        color: $white;
+
+        &:hover {
+          color: $gray-400;
+        }
+      }
     }
   }
 }
