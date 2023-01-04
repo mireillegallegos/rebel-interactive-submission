@@ -10,14 +10,14 @@ title: Our Great Website
     </h1>
     <div class="row justify-content-center mt-4">
       <div class="col-12 col-md-10 col-lg-8 col-xl-6">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis eros tellus, egestas consectetur dolor elementum sit amet. Vivamus eget consequat est. Nullam bibendum efficitur purus at fermentum. Curabitur in rhoncus nisi. Fusce neque leo, facilisis et arcu a, convallis interdum purus. Maecenas aliquam vestibulum diam, quis condimentum orci sagittis vel. Sed elementum fermentum lectus, ut posuere enim imperdiet quis.</p>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis eros tellus, egestas consectetur dolor elementum sit amet. Vivamus eget consequat est. Nullam bibendum efficitur purus at fermentum. Curabitur in rhoncus nisi. Fusce neque leo, facilisis et arcu a, convallis interdum purus. Maecenas aliquam vestibulum diam, quis condimentum orci sagittis vel. Sed elementum fermentum lectus, ut posuere enim imperdiet quis.</p>
         <ul class="d-inline-block text-start">
           <li>Lorem? Ipsum!</li>
           <li>Dolor sit amet</li>
           <li>I hand-typed these, what's wrong with me?</li>
         </ul>
-        <p>
-          <a href="#" class="call-to-action btn btn-primary">Call to Action</a>
+        <p class="mt-3">
+          <a href="#" class="call-to-action btn btn-lg btn-dark">Call to Action</a>
         </p>
       </div>
   </div>
